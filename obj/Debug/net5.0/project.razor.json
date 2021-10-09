@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -664627379,
+        "HashCode": -107626224,
         "Kind": "Components.Component",
-        "Name": "assignment.Pages.FetchData",
+        "Name": "assignment.Pages.AddAdult",
         "AssemblyName": "assignment",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "AddAdult"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Pages.FetchData"
+          "Common.TypeName": "assignment.Pages.AddAdult"
         }
       },
       {
-        "HashCode": -1836282793,
+        "HashCode": 896099732,
         "Kind": "Components.Component",
-        "Name": "assignment.Pages.FetchData",
+        "Name": "assignment.Pages.AddAdult",
         "AssemblyName": "assignment",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "assignment.Pages.FetchData"
+            "TagName": "assignment.Pages.AddAdult"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Pages.FetchData",
+          "Common.TypeName": "assignment.Pages.AddAdult",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,35 +78,68 @@
         }
       },
       {
-        "HashCode": -107626224,
+        "HashCode": 1705199599,
         "Kind": "Components.Component",
-        "Name": "assignment.Pages.AddAdult",
+        "Name": "assignment.Pages.Counter",
         "AssemblyName": "assignment",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "AddAdult"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Pages.AddAdult"
+          "Common.TypeName": "assignment.Pages.Counter"
         }
       },
       {
-        "HashCode": 896099732,
+        "HashCode": -655487543,
         "Kind": "Components.Component",
-        "Name": "assignment.Pages.AddAdult",
+        "Name": "assignment.Pages.Counter",
         "AssemblyName": "assignment",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "assignment.Pages.AddAdult"
+            "TagName": "assignment.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Pages.AddAdult",
+          "Common.TypeName": "assignment.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -664627379,
+        "Kind": "Components.Component",
+        "Name": "assignment.Pages.FetchData",
+        "AssemblyName": "assignment",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "assignment.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1836282793,
+        "Kind": "Components.Component",
+        "Name": "assignment.Pages.FetchData",
+        "AssemblyName": "assignment",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "assignment.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "assignment.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,39 +177,6 @@
         }
       },
       {
-        "HashCode": 1705199599,
-        "Kind": "Components.Component",
-        "Name": "assignment.Pages.Counter",
-        "AssemblyName": "assignment",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -655487543,
-        "Kind": "Components.Component",
-        "Name": "assignment.Pages.Counter",
-        "AssemblyName": "assignment",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "assignment.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -658167153,
         "Kind": "Components.Component",
         "Name": "assignment.App",
@@ -206,6 +206,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "assignment.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1364983140,
+        "Kind": "Components.Component",
+        "Name": "assignment.Shared.SurveyPrompt",
+        "AssemblyName": "assignment",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "assignment.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1386130368,
+        "Kind": "Components.Component",
+        "Name": "assignment.Shared.SurveyPrompt",
+        "AssemblyName": "assignment",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "assignment.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "assignment.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -335,59 +388,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "assignment.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1364983140,
-        "Kind": "Components.Component",
-        "Name": "assignment.Shared.SurveyPrompt",
-        "AssemblyName": "assignment",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1386130368,
-        "Kind": "Components.Component",
-        "Name": "assignment.Shared.SurveyPrompt",
-        "AssemblyName": "assignment",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "assignment.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "assignment.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
